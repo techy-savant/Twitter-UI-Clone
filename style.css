@@ -9,6 +9,14 @@
 img{
     width: 100%;
 }
+.btn{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
 body{
     --twitter-color: #50b7f5;
     --twitter-background: #e6ecf0;
@@ -63,7 +71,7 @@ body{
 
 }
 .sidebar-content{
-    min-width: 100px;
+    min-width: fit-content;
     position: fixed;
     /* border-right: 1px solid var(--twitter-background); */
     display: grid;
@@ -366,10 +374,10 @@ img.two{
 .aside-content{
     display: grid;
     row-gap: 15px;
-    /* min-width: fit-content; */
+    min-width: fit-content;
     padding: 10px;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 350px;
     
 }
 .input-box{
@@ -458,8 +466,93 @@ img.two{
     font-size: 10px;
     font-weight: normal;
 }
-.trend span{
+span{
     color: var(--twitter-color);
     font-size: 14px;
     padding: 5px 0;
+}
+.followers-box{
+    display: grid;
+    row-gap: 15px;
+    padding: 0;
+}
+.followers-box h2{
+    padding: 10px;
+}
+.account{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px;
+    column-gap: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.account:hover{
+    background-color: #e6ecf0;
+}
+.account img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.account p{
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(83, 100, 113);
+}
+.account .acc-nickname{
+    font-weight: bold;
+    color: #000;
+}
+.account .btn{
+    padding: 0 15px;
+    max-height: 30px;
+}
+.footer-box{
+    background-color: #fff;
+    font-size: 9px;
+    font-weight: normal;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box p{
+    color: rgb(83, 100, 113);
+    font-weight: normal;
+}
+@media screen and (max-width: 1280px) {
+  /* CSS rules for screens with a maximum width of 600 pixels */
+
+  .sideOption h2{
+    display: none;
+  }
+  .side_tweet{
+    display: none;
+  }
+  .side-user .user-names, .side-user .more{
+    display: none;
+  }
+  .side-user{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar{
+    flex: none;
+    width: auto;
+    margin-right: 50px;
+  }
+  .feed{
+    flex: 0.6;
+  }
+  .aside{
+    flex: 0.36;
+  }
+
 }
