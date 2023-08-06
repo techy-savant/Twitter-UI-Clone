@@ -11,6 +11,6 @@ Built with:
 
 ## MOBILE VIEW
 
-1. ![Alt text](<images/twitter mobile 1.png>)
+ ![Mobile](<images/twitter mobile 1.png>)
 
-1. ![Alt text](<images/twitter mobile 2.png>)
+ ![Mobile View 2](<images/twitter mobile 2.png>)
