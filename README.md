@@ -11,6 +11,6 @@ Built with:
 
 ## MOBILE VIEW
 
- ![Mobile](<images/twitter mobile 1.png>)
+1.  ![Mobile View 1](/images/twitter%20mobile%201.png)
 
- ![Mobile View 2](<images/twitter mobile 2.png>)
+1.  ![Mobile View 2](/images/twitter%20mobile%202.png)
