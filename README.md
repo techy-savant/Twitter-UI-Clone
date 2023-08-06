@@ -1,4 +1,4 @@
-# X.com's Homapage built entirely from scratch.
+# X.com's Homepage built entirely from scratch.
 Built with:
 *  HTML5  
 * CSS3.
@@ -12,4 +12,5 @@ Built with:
 ## MOBILE VIEW
 
 1. ![Alt text](<images/twitter mobile 1.png>)
+
 1. ![Alt text](<images/twitter mobile 2.png>)
