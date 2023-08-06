@@ -447,6 +447,7 @@ img.two{
     background-color: #e6ecf0;
 }
 .trend .category{
+    display: flex;
    color: rgb(83, 100, 113);
    border: none;
     font-size: 10px;
@@ -526,6 +527,7 @@ span{
     color: rgb(83, 100, 113);
     font-weight: normal;
 }
+
 @media screen and (max-width: 1280px) {
   /* CSS rules for screens with a maximum width of 600 pixels */
 
@@ -555,4 +557,90 @@ span{
     flex: 0.36;
   }
 
+}
+@media (max-width: 950px) {
+body{
+    display: grid;
+    column-gap: 200px;
+    background-color: #fff;
+}
+.sidebar{
+    width: fit-content;
+    height: 100%;
+}
+.feed{
+    margin-left: 50px;
+}
+.feed-content{
+    max-width: 700px;
+}
+
+.aside-content{
+    max-width: 700px;
+    margin: 0 50px;
+}
+.aside-content {
+    max-width: fit-content;
+    place-items: center;
+}
+.box{
+    width: 100%;
+}
+}
+
+@media (max-width: 500px) {
+  .sidebar-content > *:not(.side-user) {
+    display: none;
+  }
+  .side-user {
+    grid-template-columns: auto;
+    justify-content: center;
+    padding: 15px 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .tweetbox_content img{
+    width: 30px;
+    height: 30px;
+}
+
+  
+  .tweetbox_input input {
+    font-size: 15px;
+  }
+  
+  .tweet_items {
+    font-size: 8px;
+  }
+  .tweetbox_input .tweet_btn{
+   padding: 8px 15px;
+}
+.post-image{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  img.one{
+   border-radius: 20px;
+}
+  img.two{
+   border-radius: 20px;
+}
+.post-side img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-name{
+    font-size: 12px;
+}
+.p-tag{
+    font-size: 11px;
+}
+.p-time{
+    font-size: 11px;
+}
 }
