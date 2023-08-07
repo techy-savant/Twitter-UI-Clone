@@ -620,7 +620,12 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 10px;
-  }
+}
+.post-image img{
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
   img.one{
    border-radius: 20px;
 }
@@ -633,6 +638,7 @@ body{
     border-radius: 50%;
     object-fit: cover;
 }
+
 
 .post-name{
     font-size: 12px;
