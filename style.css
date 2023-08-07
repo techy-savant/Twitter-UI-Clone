@@ -616,6 +616,11 @@ body{
   .tweetbox_input .tweet_btn{
    padding: 8px 15px;
 }
+.onetype img{
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
 .post-image{
     display: grid;
     grid-template-columns: 1fr;
@@ -623,8 +628,6 @@ body{
 }
 .post-image img{
     height: 200px;
-    object-fit: contain;
-    object-position: center;
 }
   img.one{
    border-radius: 20px;
