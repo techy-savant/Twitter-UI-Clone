@@ -320,7 +320,7 @@ img.one{
     border-bottom-left-radius: 20px;
 }
 .onetype img{
-    height: 500px;
+    
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
