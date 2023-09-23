@@ -1,16 +1,17 @@
-# X.com's Homepage built entirely from scratch.
+
+# X.com's UI Clone
+
+
+## About
+X.com UI clone built from scratch
 Built with:
 *  HTML5  
 * CSS3.
 
+<br>
 
-## DESKTOP VIEW
+![x-clone](<images/Screenshot 2023-08-06 215946.png>)
+
+### Live Site: [x-clone.netlify.app](https://x-clone.netlify.app)
 
 
-![Alt text](<images/Screenshot 2023-08-06 215946.png>)
-
-## MOBILE VIEW
-
-1.  ![Mobile View 1](/images/twitter%20mobile%201.png)
-
-1.  ![Mobile View 2](/images/twitter%20mobile%202.png)
